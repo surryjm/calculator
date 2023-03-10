@@ -10,7 +10,6 @@ function buttonClick(input) {
     handleNumber(input);
   }
   renderOnScreen()
-  // console.log(input)
 }
 
 function handleSymbol(input) {
@@ -20,7 +19,6 @@ function handleSymbol(input) {
       total = 0;
       break;
     case "←":
-      // console.log(`screenNum: ${screenNum}`)
       if (screenNum === "0" || screenNum.length === 1 || typeof(screenNum) != "string") {
         screenNum = "0";
       } else {
@@ -74,10 +72,6 @@ function completeEquation(intInput) {
     total /= intInput;
   }
   screenNum = total
-  // console.log(`previousChar: ${previousChar}`)
-  // console.log(`total: ${total}`)
-  // console.log(`screenNum: ${screenNum}`)
-  // console.log(`intInput: ${intInput}`)
 }
 
 function renderOnScreen() {
