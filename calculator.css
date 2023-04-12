@@ -9,28 +9,27 @@ body {
   letter-spacing: 1.25px;
 }
 .page {
-  width: 390px;
+  max-width: 375px;
+  margin: 0 auto;
 }
 .screen {
   text-align: right;
   background-color: black;
   color: white;
-  padding: 20px 15px;
+  padding: 20px 25px;
   font-weight: 300;
-  margin: 10px 10px 0 10px;
 }
 .calc-button-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 10px 0 10px;
 }
 .calc-button {
   background-color: #d8d9db;
   color: black;
   font-size: 40px;
   width: 25%;
-  height: 92px;
+  height: 95px;
   border: 2px black solid;
   border-bottom: none;
   border-left: none;
