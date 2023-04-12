@@ -15,20 +15,22 @@ body {
   text-align: right;
   background-color: black;
   color: white;
-  padding: 20px 5px;
+  padding: 20px 15px;
   font-weight: 300;
+  margin: 10px 10px 0 10px;
 }
 .calc-button-row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0 10px 0 10px;
 }
 .calc-button {
   background-color: #d8d9db;
   color: black;
   font-size: 40px;
   width: 25%;
-  height: 100px;
+  height: 92px;
   border: 2px black solid;
   border-bottom: none;
   border-left: none;
